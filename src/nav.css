@@ -1,0 +1,23 @@
+.navbar {
+    background-image: url('images/navbackground.jpeg');   
+    background-size:100%;   
+    background-repeat: no-repeat;   
+    position: relative;   
+  }
+  .nav-link {
+    color: #fff;   
+    margin-right: 5%;   
+    border: red;  
+    background: none;   
+    cursor: pointer;   
+  }
+  .TitleNav {
+    font-size: 75px;   
+    margin-right: auto;   
+  }
+  
+  @media (max-width: 15%) {
+    .navbar-nav {
+      flex-direction: column;   
+    }
+  }
